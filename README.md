@@ -21,7 +21,7 @@ This project demonstrates how to build a modern AI chat application using Micros
 
 ### Setting up Ollama
 
-1. **Install Ollama**: Download from [ollama.ai](https://ollama.ai)
+1. **Install Ollama**: Download from [https://ollama.com/](https://ollama.com/)
 2. **Pull the model**:
    ```bash
    ollama pull phi3:mini
