@@ -1,0 +1,29 @@
+### Test Chat API with simple prompt
+POST http://localhost:5150/chat
+Content-Type: application/json
+
+{
+  "prompt": "Hello, how are you today?"
+}
+
+###
+
+### Test Chat API with conversation history
+POST http://localhost:5150/chat
+Content-Type: application/json
+
+{
+  "prompt": "What's the weather like?",
+  "chatHistory": [
+    {
+      "role": "user",
+      "content": "Hello, I'm looking for some information."
+    },
+    {
+      "role": "assistant", 
+      "content": "Hello! I'd be happy to help you with any information you need. What would you like to know about?"
+    }
+  ]
+}
+
+###

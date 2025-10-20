@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "x2suDGKp8Eg=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\nishant.mahajan\\source\\LocalAIApp\\LocalAIAppAPI\\LocalAIAppAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nishant.mahajan\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.9\\microsoft.aspnetcore.openapi.9.0.9.nupkg.sha512",
+    "C:\\Users\\nishant.mahajan\\.nuget\\packages\\microsoft.extensions.ai\\9.5.0\\microsoft.extensions.ai.9.5.0.nupkg.sha512",
+    "C:\\Users\\nishant.mahajan\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.6.0\\microsoft.extensions.ai.abstractions.9.6.0.nupkg.sha512",
+    "C:\\Users\\nishant.mahajan\\.nuget\\packages\\microsoft.extensions.ai.ollama\\9.6.0-preview.1.25310.2\\microsoft.extensions.ai.ollama.9.6.0-preview.1.25310.2.nupkg.sha512",
+    "C:\\Users\\nishant.mahajan\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.5\\microsoft.extensions.caching.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\nishant.mahajan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\nishant.mahajan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.5\\microsoft.extensions.logging.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\nishant.mahajan\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.5\\microsoft.extensions.primitives.9.0.5.nupkg.sha512",
+    "C:\\Users\\nishant.mahajan\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\nishant.mahajan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.5\\system.diagnostics.diagnosticsource.9.0.5.nupkg.sha512",
+    "C:\\Users\\nishant.mahajan\\.nuget\\packages\\system.net.http.json\\9.0.6\\system.net.http.json.9.0.6.nupkg.sha512",
+    "C:\\Users\\nishant.mahajan\\.nuget\\packages\\system.text.json\\9.0.6\\system.text.json.9.0.6.nupkg.sha512",
+    "C:\\Users\\nishant.mahajan\\.nuget\\packages\\system.threading.channels\\9.0.5\\system.threading.channels.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

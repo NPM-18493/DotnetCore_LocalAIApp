@@ -1,0 +1,71 @@
+/* Custom animations and styles for the chat interface */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.message-enter {
+    animation: fadeInUp 0.3s ease-out;
+}
+
+.typing-indicator {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Scrollbar styling */
+.chat-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chat-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.chat-container::-webkit-scrollbar-thumb {
+    background: rgba(156, 163, 175, 0.4);
+    border-radius: 3px;
+}
+
+.chat-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(156, 163, 175, 0.6);
+}
+
+/* Dark mode scrollbar */
+.dark .chat-container::-webkit-scrollbar-thumb {
+    background: rgba(75, 85, 99, 0.4);
+}
+
+.dark .chat-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(75, 85, 99, 0.6);
+}
+
+/* Textarea resize handle styling */
+textarea {
+    resize: none;
+}
+
+/* Focus ring customization */
+.focus-ring:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}

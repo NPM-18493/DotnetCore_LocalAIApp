@@ -1,0 +1,16 @@
+### Test CORS - Simple Chat Request
+POST http://localhost:5150/chat
+Content-Type: application/json
+Origin: http://localhost:3000
+
+{
+  "prompt": "Hello! Testing CORS from React app."
+}
+
+### Test CORS - Preflight Check
+OPTIONS http://localhost:5150/chat
+Origin: http://localhost:3000
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: Content-Type
+
+###
